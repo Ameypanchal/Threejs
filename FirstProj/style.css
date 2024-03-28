@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  overflow-x: hidden;
+  font-family:'Poppins', sans-serif;
+}
+
+.webgl {
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+nav{
+  color: white;
+  position: relative;
+  z-index: 2;
+  justify-content: space-between;
+  display: flex;
+  padding: 4rem 8rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul{
+  list-style: none;
+  gap: 4rem;
+  display: flex;
+}
+
+.title{
+  z-index: 2;
+  color: white;
+  position: absolute;
+  font-size: 3rem;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -75%);
+}
